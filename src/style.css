@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  min-height: 30vh;
+  min-width: 40vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 4rem;
+}
+
+.signature {
+  width: 50%;
+  height: 100%;
+}
+
+.random-btn {
+  border: none;
+  background: rgb(110, 198, 230);
+  border-radius: 15px;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 2rem;
+}
+.random-btn:hover {
+  color: rgb(110, 198, 230);
+  background: white;
+}
+#random-text {
+  padding: 1rem;
+}
+
+.random-saying {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 1rem;
+  height: 100%;
+}
+
+.text-container {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
